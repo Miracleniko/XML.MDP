@@ -6,8 +6,7 @@
 
 # **MDP快速开发平台**
 
-<img src="D:\X Moon Light\X Moon Light Core Pro\assets\Logo.jpg" alt="Logo" style="zoom: 45%;" />
-------
+![Logo](https://github.com/Miracleniko/XML.MDP/blob/master/assets/Logo.jpg)
 
 [TOC]
 
