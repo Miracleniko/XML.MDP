@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<OutputType>Exe</OutputType>
+		<Description>CODE : Veronica</Description>
+		<Company>XML</Company>
+		<Product>RDP</Product>
+		<Copyright>BY XML</Copyright>
+		<BaseOutputPath>..\..\Build\$(MSBuildProjectName)\bin\</BaseOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\XML.MDP\XML.MDP.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Pages\" />
+	</ItemGroup>
+
+</Project>

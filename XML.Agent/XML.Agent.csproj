@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<OutputType>Library</OutputType>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Description>CODE : Veronica</Description>
+		<Company>XML</Company>
+		<Product>RDP</Product>
+		<Copyright>BY XML</Copyright>
+		<BaseOutputPath>..\..\Build\$(MSBuildProjectName)\bin\</BaseOutputPath>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\XML.Core\XML.Core.csproj" />
+	</ItemGroup>
+
+</Project>

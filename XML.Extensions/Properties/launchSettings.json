@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "XML.Extensions": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:52392;http://localhost:52393"
+    }
+  }
+}
